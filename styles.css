@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+table {
+  margin-top: 20px;
+}
+
+td {
+  padding: 10px;
+}
+
+/*This is the code for my login button*/
+.Loginbutton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Loginbutton:hover {
+  background-color: #45a049;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search1 {
+  margin: 0 10px;
+}
+
+.search2 {
+  display: flex;
+}
+
+.search-bar {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: #333;
+}
+
+p {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*This is where the boxes for the images are */
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.boxes img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+}
+
+.boxes .box {
+  overflow: hidden;
+}
+
+/*This is the code for the navbar and header*/
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 10px;
+  color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.taskbar {
+  position: relative;
+}
+
+
+
+.taskbar:hover  {
+  display: block;
+}
+
+.navbar a.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+header .logo {
+  font-size: 20px;
+}
+
+header .search-bar {
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+header .search-button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+header .search-button:hover {
+  background-color: #45a049;
+}
+
+header .buttons a button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header .login {
+  background-color: #007BFF;
+  color: white;
+}
+
+header .signup {
+  background-color: #28a745;
+  color: white;
+}
+
+header .buttons a button:hover {
+  opacity: 0.9;
+}
